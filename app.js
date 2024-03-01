@@ -27,7 +27,7 @@ io.on("connection", (socket) => {
       "onMessage",
       "Welcome 👋, this is a message from the server using socket"
     );
-  }, 10000); // 1 minute
+  }, 20000); // 20 seconds
 
   socket.on("disconnect", () => {
     clearInterval(interval);
