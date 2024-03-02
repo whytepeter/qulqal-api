@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
   const interval = setInterval(() => {
     socket.emit(
       "onMessage",
-      "Welcome 👋, this is a message from the server using socket"
+      "Hey👋, this message is sent every 20sec from the server using socket"
     );
   }, 20000); // 20 seconds
 
